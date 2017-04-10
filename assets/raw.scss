@@ -103,3 +103,13 @@ a:hover {
     // transform: translateX(0em);
   }
 }
+
+@keyframes slider {
+  from{
+    background-color: rgba(0,0,0,0);
+  }
+  to {
+    transform: translateY(0px);
+    background-color: rgba(0,0,0,1);
+  }
+}
