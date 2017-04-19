@@ -1,16 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Contrail+One|Josefin+Sans:300i');
+@import url('https://fonts.googleapis.com/css?family=Contrail+One|Josefin+Sans:300i|Karla:700i');
 $Josefin: 'Josefin Sans', sans-serif;
 $Contrail: 'Contrail One', sans-serif;
+$Karla: 'Karla', $Contrail;
 
-footer {
-  min-height: 5em;
-  padding: 2em 0 1.5em 0;
-  text-align: center;
-  background-color: #4d6471;
+a {
+  color: inherit;
 }
 
 a:hover {
   cursor: pointer;
+}
+
+footer {
+  background-color: #4d6471;
+  min-height: 5em;
+  padding: 2em 0 1.5em 0;
+  text-align: center;
+  color: white;
+  font-family: $Karla;
+  a {
+    padding: 0 .5em;
+  }
 }
 
 #hero {
@@ -43,6 +53,7 @@ a:hover {
     }
     button {
       margin-left: 1em;
+      margin-bottom: 1em;
     }
 }
 
@@ -64,12 +75,12 @@ a:hover {
   }
   span {
     font-family: $Josefin;
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: white;
   }
   p {
     padding-top: 1.3em;
-    font-size: 1.2em;
+    font-size: 1.25em;
     color: white;
   }
 }

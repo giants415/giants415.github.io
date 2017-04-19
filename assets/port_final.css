@@ -1,14 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Contrail+One|Josefin+Sans:300i|Karla:700i");
+body {
+  background-color: #294454; }
+
+h1 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5em;
+  letter-spacing: 2px;
+  margin-top: .5em;
+  color: white; }
+
 footer {
   min-height: 5em;
   padding: 2em 0 1.5em 0;
   text-align: center;
-  background-color: #4d6471; }
+  background-color: #4d6471;
+  color: white;
+  font-family: "Karla", "Contrail One", sans-serif; }
+  footer a {
+    color: inherit;
+    padding: 0 .5em; }
 
 .port-item {
-  text-align: center;
-  padding: 1em; }
+  text-align: center; }
+  .port-item h3 {
+    font-family: "Contrail One", sans-serif;
+    font-size: 2em;
+    color: white;
+    padding-top: 1em; }
   .port-item img {
-    height: 150px;
-    width: auto; }
+    width: 100%;
+    height: auto; }
 
 /*# sourceMappingURL=port_final.css.map */
