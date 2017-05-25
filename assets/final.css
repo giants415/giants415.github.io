@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Contrail+One|Josefin+Sans:300i|Karla:700i");
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4em;
+  color: white; }
+
 a {
   color: inherit; }
 
@@ -22,9 +27,6 @@ footer {
   text-align: center;
   animation: 2s imgfader 1; }
   #hero h1 {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 4em;
-    color: white;
     animation-delay: 1s;
     animation: 2s textfall 1;
     margin-top: .5em; }

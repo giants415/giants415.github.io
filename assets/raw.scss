@@ -3,6 +3,12 @@ $Josefin: 'Josefin Sans', sans-serif;
 $Contrail: 'Contrail One', sans-serif;
 $Karla: 'Karla', $Contrail;
 
+h1 {
+  font-family: $Josefin;
+  font-size: 4em;
+  color: white;
+}
+
 a {
   color: inherit;
 }
@@ -30,9 +36,6 @@ footer {
   text-align: center;
   animation: 2s imgfader 1;
     h1 {
-      font-family: $Josefin;
-      font-size: 4em;
-      color: white;
       animation-delay: 1s;
       animation: 2s textfall 1;
       margin-top: .5em;
