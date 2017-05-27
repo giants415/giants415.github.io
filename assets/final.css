@@ -24,8 +24,6 @@ footer {
     padding: 0 .5em; }
 
 #hero {
-  background: url(http://i.imgur.com/kAE9FLz.jpg) center center;
-  background-size: cover;
   min-height: 500px;
   text-align: center;
   animation: 2s imgfader 1; }
