@@ -89,6 +89,14 @@ footer {
   }
 }
 
+#portfolio{
+  div {
+    background-color: red;
+    margin: 2em 0;
+    max-width: 50%;
+  }
+}
+
 @keyframes imgfader {
   from {
     opacity: 0;
