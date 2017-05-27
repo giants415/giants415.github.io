@@ -6,7 +6,6 @@ $Karla: 'Karla', $Contrail;
 h1 {
   font-family: $Josefin;
   font-size: 4em;
-  color: white;
 }
 
 a {
@@ -90,10 +89,11 @@ footer {
 }
 
 #portfolio{
+  background-color: gray;
   div {
     background-color: red;
     margin: 2em 0;
-    max-width: 50%;
+    max-width: 30%;
   }
 }
 

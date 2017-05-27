@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Contrail+One|Josefin+Sans:300i|Karla:700i");
 h1 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 4em;
-  color: white; }
+  font-size: 4em; }
 
 a {
   color: inherit; }
@@ -66,10 +65,12 @@ footer {
     font-size: 1.25em;
     color: white; }
 
-#portfolio div {
-  background-color: red;
-  margin: 2em 0;
-  max-width: 50%; }
+#portfolio {
+  background-color: gray; }
+  #portfolio div {
+    background-color: red;
+    margin: 2em 0;
+    max-width: 30%; }
 
 @keyframes imgfader {
   from {
