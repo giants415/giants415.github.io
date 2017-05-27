@@ -24,19 +24,18 @@ footer {
 
 #hero {
   min-height: 500px;
-  text-align: center; }
+  text-align: center;
+  font-family: "Contrail One", sans-serif; }
   #hero h1 {
     animation-delay: 1s;
     animation: 2s textfall 1;
     margin-top: .5em; }
   #hero h2 {
-    font-family: "Contrail One", sans-serif;
     font-size: 3em;
     animation: 2s textscroll 1;
     margin-top: .5em; }
   #hero h3 {
     font-size: 3em;
-    font-family: "Contrail One", sans-serif;
     margin-top: 1.9em;
     margin-bottom: .25em; }
   #hero button {

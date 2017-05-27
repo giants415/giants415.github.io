@@ -36,23 +36,22 @@ footer {
 #hero {
   // background: url(http://i.imgur.com/kAE9FLz.jpg) center center;
   // background-size: cover;
+  // animation: 2s imgfader 1;
   min-height: 500px;
   text-align: center;
-  // animation: 2s imgfader 1;
+  font-family: $Contrail;
     h1 {
       animation-delay: 1s;
       animation: 2s textfall 1;
       margin-top: .5em;
     }
     h2 {
-      font-family: $Contrail;
       font-size: 3em;
       animation: 2s textscroll 1;
       margin-top: .5em;
     }
     h3 {
       font-size: 3em;
-      font-family: $Contrail;
       margin-top: 1.9em;
       margin-bottom: .25em;
     }
