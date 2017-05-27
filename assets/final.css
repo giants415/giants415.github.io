@@ -67,6 +67,8 @@ footer {
 
 #portfolio {
   background-color: gray; }
+  #portfolio h1 {
+    text-align: center; }
   #portfolio div {
     background-color: red;
     margin: 2em 0;
