@@ -38,7 +38,7 @@ footer {
   // background-size: cover;
   min-height: 500px;
   text-align: center;
-  animation: 2s imgfader 1;
+  // animation: 2s imgfader 1;
     h1 {
       animation-delay: 1s;
       animation: 2s textfall 1;
@@ -46,7 +46,6 @@ footer {
     }
     h2 {
       font-family: $Contrail;
-      color: white;
       font-size: 3em;
       animation: 2s textscroll 1;
       margin-top: .5em;
@@ -54,7 +53,6 @@ footer {
     h3 {
       font-size: 3em;
       font-family: $Contrail;
-      color: white;
       margin-top: 1.9em;
       margin-bottom: .25em;
     }

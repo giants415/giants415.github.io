@@ -25,22 +25,19 @@ footer {
 
 #hero {
   min-height: 500px;
-  text-align: center;
-  animation: 2s imgfader 1; }
+  text-align: center; }
   #hero h1 {
     animation-delay: 1s;
     animation: 2s textfall 1;
     margin-top: .5em; }
   #hero h2 {
     font-family: "Contrail One", sans-serif;
-    color: white;
     font-size: 3em;
     animation: 2s textscroll 1;
     margin-top: .5em; }
   #hero h3 {
     font-size: 3em;
     font-family: "Contrail One", sans-serif;
-    color: white;
     margin-top: 1.9em;
     margin-bottom: .25em; }
   #hero button {
