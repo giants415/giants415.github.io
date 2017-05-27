@@ -76,7 +76,8 @@ footer {
     max-width: 30%;
     display: block;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    border-radius: 10px; }
 
 @keyframes imgfader {
   from {
