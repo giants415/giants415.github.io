@@ -78,6 +78,8 @@ footer {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px; }
+    #portfolio div h3 {
+      padding-bottom: 1em; }
 
 @keyframes imgfader {
   from {
