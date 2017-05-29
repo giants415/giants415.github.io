@@ -80,6 +80,7 @@ footer {
   span {
     font-family: $Josefin;
     font-size: 1.6em;
+    max-width: 20%;
   }
   p {
     padding-top: 1.3em;
@@ -89,7 +90,9 @@ footer {
 }
 
 #skills {
-
+  span {
+    max-width: 100%;
+  }
 }
 
 #portfolio{
