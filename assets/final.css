@@ -46,7 +46,6 @@ footer {
   padding: 3em 3em;
   margin-top: -.5em; }
   #aboutMe img {
-    max-width: 30%;
     max-height: auto;
     display: none; }
   #aboutMe h2 {
@@ -58,15 +57,11 @@ footer {
     margin-bottom: .5em; }
   #aboutMe span {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 1.6em;
-    max-width: 20%; }
+    font-size: 1.6em; }
   #aboutMe p {
     padding-top: 1.3em;
     font-size: 1.25em;
     color: white; }
-
-#skills span {
-  max-width: 100%; }
 
 #portfolio {
   background-color: gray;
