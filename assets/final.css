@@ -78,6 +78,7 @@ footer {
     border-radius: 10px; }
     #portfolio div img {
       max-width: 40%;
+      margin-left: .5em;
       display: inline-block;
       float: right; }
 
