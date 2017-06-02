@@ -5,4 +5,8 @@ $(function () {
     $('#resume-img').toggle();
   });
 
+  $("#portfolio img").on("click", function(){
+    $(this).css("zoom", "50%");
+  });
+
 });
