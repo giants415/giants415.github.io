@@ -1,5 +1,5 @@
 $(function () {
-  
+
   $("#resume").on('click', function(){
     $('#resume-img').toggle();
   });

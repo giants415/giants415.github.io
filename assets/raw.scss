@@ -35,8 +35,7 @@ footer {
 
 .zoom{
   position: relative;
-  left: 15em;
-  transform: scale(2.5);
+  animation: 1s zoomies forwards;
 }
 
 #hero {
@@ -119,6 +118,17 @@ footer {
       display: inline-block;
       float: right;
     }
+  }
+}
+
+@keyframes zoomies {
+  from {
+    left: 0;
+    transform: scale(1);
+  }
+  to{
+    left: 15em;
+    transform: scale(2.5);
   }
 }
 
