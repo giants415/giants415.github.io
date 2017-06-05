@@ -38,13 +38,6 @@ footer {
     font-size: 3em;
     animation: 2s textscroll 1;
     margin-top: .5em; }
-  #hero h3 {
-    font-size: 3em;
-    margin-top: 1.9em;
-    margin-bottom: .25em; }
-  #hero button {
-    margin-left: 1em;
-    margin-bottom: 1em; }
 
 #aboutMe {
   padding: 3em 3em;
