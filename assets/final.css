@@ -27,7 +27,7 @@ footer {
   animation: 1s zoomies forwards; }
 
 #hero {
-  min-height: 500px;
+  min-height: 250px;
   text-align: center;
   font-family: "Contrail One", sans-serif; }
   #hero h1 {
