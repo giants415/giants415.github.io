@@ -1,9 +1,4 @@
 $(function () {
-
-  $("#resume").on('click', function(){
-    $('#resume-img').toggle();
-  });
-
   $(".port-item > img").on("mouseover", function(){
     $(this).addClass("zoom");
   });
