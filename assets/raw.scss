@@ -4,6 +4,10 @@ $Contrail: 'Contrail One', sans-serif;
 $Karla: 'Karla', $Contrail;
 $Roboto: 'Roboto Condensed', sans-serif;
 
+body {
+  background-image: url('pink-dust.png');
+}
+
 h1 {
   font-family: $Josefin;
   font-size: 4em;
@@ -42,6 +46,7 @@ footer {
   min-height: 250px;
   text-align: center;
   font-family: $Contrail;
+  // background-image: url('pink-dust.png');
   h1 {
     animation-delay: 1s;
     animation: 2s textfall 1;

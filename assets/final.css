@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Contrail+One|Josefin+Sans:300i|Karla:700i|Roboto+Condensed");
+body {
+  background-image: url("pink-dust.png"); }
+
 h1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 4em; }
