@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Contrail+One|Josefin+Sans:300i|Karla:700i|Roboto+Condensed");
 body {
-  background-image: url("pink-dust.png"); }
+  background-image: url("pink-dust.png");
+  color: white; }
 
 h1 {
   font-family: "Josefin Sans", sans-serif;
@@ -60,6 +61,7 @@ footer {
   #portfolio h1 {
     text-align: center; }
   #portfolio div {
+    color: black;
     background-color: #A2DFDF;
     margin: 2em 0;
     padding: 3em;
