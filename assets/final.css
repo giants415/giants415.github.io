@@ -39,22 +39,20 @@ footer {
     animation: 2s textscroll 1;
     margin-top: .5em; }
 
-#aboutMe {
-  margin-top: -.5em; }
-  #aboutMe img {
-    max-width: 40%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-  #aboutMe h2 {
-    font-family: "Contrail One", sans-serif;
-    font-size: 2.5em;
-    text-align: center;
-    margin-bottom: .5em; }
-  #aboutMe span {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 1.6em; }
+#aboutMe img {
+  max-width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+#aboutMe h2 {
+  font-family: "Contrail One", sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: .5em; }
+#aboutMe span {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.6em; }
 
 #portfolio {
   background-color: gray;
