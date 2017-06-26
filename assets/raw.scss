@@ -44,9 +44,11 @@ footer {
   height: 150px;
   background-color: red;
   position: fixed;
+  z-index: 5;
 }
 
 #hero {
+  position: relative;
   min-height: 250px;
   text-align: center;
   font-family: $Contrail;
