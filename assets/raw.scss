@@ -45,6 +45,7 @@ footer {
   background-color: red;
   z-index: 5;
   position: fixed;
+  top: 0;
 }
 
 #aboutMe {
@@ -57,7 +58,7 @@ footer {
   }
   h1 {
     animation-delay: 1s;
-    animation: 2s textfall 1;
+    animation: 2s textscroll 1;
     margin-top: .5em;
   }
   h2 {

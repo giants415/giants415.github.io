@@ -32,7 +32,8 @@ footer {
   width: 100%;
   background-color: red;
   z-index: 5;
-  position: fixed; }
+  position: fixed;
+  top: 0; }
 
 #aboutMe img {
   max-width: 40%;
@@ -42,7 +43,7 @@ footer {
   transform: translate(-50%, -50%); }
 #aboutMe h1 {
   animation-delay: 1s;
-  animation: 2s textfall 1;
+  animation: 2s textscroll 1;
   margin-top: .5em; }
 #aboutMe h2 {
   font-family: "Contrail One", sans-serif;
