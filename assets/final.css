@@ -28,14 +28,14 @@ footer {
   animation: 1s zoomies forwards; }
 
 #menu {
-  width: 100%;
   height: 150px;
+  width: 100%;
   background-color: red;
-  position: fixed;
-  z-index: 5; }
+  z-index: 5;
+  position: fixed; }
 
 #hero {
-  min-height: 250px;
+  height: 250px;
   text-align: center;
   font-family: "Contrail One", sans-serif; }
   #hero h1 {
