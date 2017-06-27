@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Contrail+One|Josefin+Sans:300i|Karla:700i|Roboto+Condensed");
 body {
   background-image: url("pink-dust.png");
-  color: white; }
+  color: white;
+  margin-top: 150px; }
 
 h1 {
   font-family: "Josefin Sans", sans-serif;
@@ -28,7 +29,7 @@ footer {
   animation: 1s zoomies forwards; }
 
 #menu {
-  height: 150px;
+  height: 100px;
   width: 100%;
   background-color: red;
   z-index: 5;
@@ -43,8 +44,7 @@ footer {
   transform: translate(-50%, -50%); }
 #aboutMe h1 {
   animation-delay: 1s;
-  animation: 2s textscroll 1;
-  margin-top: .5em; }
+  animation: 2s textscroll 1; }
 #aboutMe h2 {
   font-family: "Contrail One", sans-serif;
   font-size: 2.5em;
