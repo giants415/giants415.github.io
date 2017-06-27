@@ -47,22 +47,6 @@ footer {
   position: fixed;
 }
 
-#hero {
-  height: 250px;
-  text-align: center;
-  font-family: $Contrail;
-  h1 {
-    animation-delay: 1s;
-    animation: 2s textfall 1;
-    margin-top: .5em;
-  }
-  h2 {
-    font-size: 3em;
-    animation: 2s textscroll 1;
-    margin-top: .5em;
-  }
-}
-
 #aboutMe {
   img {
     max-width: 40%;
@@ -70,6 +54,11 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  h1 {
+    animation-delay: 1s;
+    animation: 2s textfall 1;
+    margin-top: .5em;
   }
   h2 {
     font-family: $Contrail;
@@ -86,17 +75,10 @@ footer {
 #portfolio{
   font-family: $Roboto;
   padding: 1em 0;
-  // position: relative;
-  // top: 200px;
   h1 {
     text-align: center;
   }
   div {
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: flex-start;
-    // // justify-content: flex-start;
-    // align-items: flex-start;
     color: black;
     background-color: #A2DFDF;
     margin: 2em 0;
