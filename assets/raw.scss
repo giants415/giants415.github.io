@@ -58,6 +58,7 @@ footer {
     transform: translate(-50%, -50%);
   }
   h1 {
+    margin-left: 20px;
     animation-delay: 1s;
     animation: 2s textscroll 1;
   }
@@ -130,7 +131,7 @@ footer {
 @keyframes textscroll {
   from {
     opacity: 0;
-    transform: translateX(-30px);
+    transform: translateX(-50px);
   }
   to {
     opacity: 1;

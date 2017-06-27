@@ -43,6 +43,7 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%); }
 #aboutMe h1 {
+  margin-left: 20px;
   animation-delay: 1s;
   animation: 2s textscroll 1; }
 #aboutMe h2 {
@@ -94,7 +95,7 @@ footer {
 @keyframes textscroll {
   from {
     opacity: 0;
-    transform: translateX(-30px); }
+    transform: translateX(-50px); }
   to {
     opacity: 1; } }
 @keyframes slider {
