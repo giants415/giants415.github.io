@@ -58,9 +58,9 @@ footer {
     transform: translate(-50%, -50%);
   }
   h1 {
-    margin-left: 20px;
     animation-delay: 1s;
     animation: 2s textscroll 1;
+    text-align: center;
   }
   h2 {
     font-family: $Contrail;
