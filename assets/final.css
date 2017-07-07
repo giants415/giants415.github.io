@@ -35,6 +35,9 @@ footer {
   z-index: 5;
   position: fixed;
   top: 0; }
+  #menu li {
+    display: inline-block;
+    margin: 0 20px; }
 
 #aboutMe {
   text-align: center; }
