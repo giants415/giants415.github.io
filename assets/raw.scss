@@ -43,13 +43,16 @@ footer {
 #menu{
   height: 100px;
   width: 100%;
-  background-color: red;
+  background-color: rgba(119,136,153,.3);
   z-index: 5;
   position: fixed;
   top: 0;
-  li {
-    display: inline-block;
-    margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  a {
+    font-size: 1.5em;
   }
 }
 

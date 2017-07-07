@@ -31,13 +31,16 @@ footer {
 #menu {
   height: 100px;
   width: 100%;
-  background-color: red;
+  background-color: rgba(119, 136, 153, 0.3);
   z-index: 5;
   position: fixed;
-  top: 0; }
-  #menu li {
-    display: inline-block;
-    margin: 0 20px; }
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  #menu a {
+    font-size: 1.5em; }
 
 #aboutMe {
   text-align: center; }
