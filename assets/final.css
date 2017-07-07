@@ -40,7 +40,8 @@ footer {
   justify-content: space-around;
   align-items: center; }
   #menu a {
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    text-decoration: none; }
 
 #aboutMe {
   text-align: center; }
