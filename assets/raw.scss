@@ -81,6 +81,12 @@ footer {
   }
 }
 
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #portfolio{
   font-family: $Roboto;
   padding: 1em 0;

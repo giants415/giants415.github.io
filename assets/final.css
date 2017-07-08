@@ -62,6 +62,11 @@ footer {
     font-family: "Josefin Sans", sans-serif;
     font-size: 1.6em; }
 
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 #portfolio {
   font-family: "Roboto Condensed", sans-serif;
   padding: 1em 0; }
