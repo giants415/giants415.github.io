@@ -68,7 +68,8 @@ footer {
 
 #portfolio {
   font-family: "Roboto Condensed", sans-serif;
-  padding: 1em 0; }
+  padding: 1em 0;
+  display: flex; }
   #portfolio h1 {
     text-align: center; }
   #portfolio div {
@@ -78,8 +79,6 @@ footer {
     padding: 3em;
     width: 40%;
     height: 400px;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 10px; }
     #portfolio div img {
       width: 40%;
