@@ -79,10 +79,15 @@ footer {
 }
 
 #skills {
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  p {
+    font-size: 1.5em;
+  }
 }
 
 #portfolio{
