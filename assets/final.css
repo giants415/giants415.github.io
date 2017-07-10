@@ -72,8 +72,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
-  #portfolio h1 {
-    text-align: center; }
   #portfolio div {
     color: black;
     background-color: #A2DFDF;
