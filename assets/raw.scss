@@ -90,7 +90,8 @@ footer {
   font-family: $Roboto;
   padding: 1em 0;
   display: flex;
-
+  flex-wrap: wrap;
+  justify-content: space-around;
   h1 {
     text-align: center;
   }

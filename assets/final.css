@@ -69,7 +69,9 @@ footer {
 #portfolio {
   font-family: "Roboto Condensed", sans-serif;
   padding: 1em 0;
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
   #portfolio h1 {
     text-align: center; }
   #portfolio div {
