@@ -47,10 +47,7 @@ footer {
   text-align: center; }
   #aboutMe img {
     max-width: 40%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+    position: relative; }
   #aboutMe h1 {
     animation-delay: 1s;
     animation: 2s textscroll 1; }
