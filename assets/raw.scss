@@ -83,12 +83,13 @@ footer {
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   p {
     font-size: 1.5em;
-    text-align: left;
+  }
+  &:last-child{
   }
 }
 
