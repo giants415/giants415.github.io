@@ -60,10 +60,9 @@ footer {
     font-size: 1.6em; }
 
 #skills {
-  margin: auto;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column; }
 
 #portfolio {
