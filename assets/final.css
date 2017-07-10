@@ -29,7 +29,7 @@ footer {
   animation: 1s zoomies forwards; }
 
 #menu {
-  height: 100px;
+  height: 75px;
   width: 100%;
   background-color: rgba(119, 136, 153, 0.3);
   z-index: 5;
