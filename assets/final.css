@@ -127,10 +127,5 @@ footer {
   to {
     transform: translateY(0px);
     background-color: black; } }
-@keyframes ahover {
-  from {
-    outline: 0px; }
-  to {
-    outline: 2px solid red; } }
 
 /*# sourceMappingURL=final.css.map */

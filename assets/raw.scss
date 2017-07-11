@@ -69,7 +69,6 @@ footer {
     font-family: $Karla;
   }
   h2 {
-    // font-family: $Contrail;
     font-size: 3em;
     margin-bottom: 50px;
   }
@@ -175,14 +174,5 @@ footer {
   to {
     transform: translateY(0px);
     background-color: rgba(0,0,0,1);
-  }
-}
-
-@keyframes ahover {
-  from{
-    outline: 0px;
-  }
-  to {
-    outline: 2px solid red;
   }
 }
