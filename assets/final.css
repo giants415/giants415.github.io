@@ -50,12 +50,12 @@ footer {
     position: relative;
     border-radius: 30px; }
   #aboutMe h1 {
+    font-family: "Karla", "Contrail One", sans-serif;
     animation-delay: 1s;
     animation: 2s textscroll 1; }
   #aboutMe h2 {
-    font-family: "Contrail One", sans-serif;
-    font-size: 2.5em;
-    margin-bottom: .5em; }
+    font-size: 3em;
+    margin-bottom: 50px; }
   #aboutMe span {
     font-family: "Josefin Sans", sans-serif;
     font-size: 1.6em; }

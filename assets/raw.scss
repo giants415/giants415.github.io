@@ -65,13 +65,14 @@ footer {
     border-radius: 30px;
   }
   h1 {
+    font-family: $Karla;
     animation-delay: 1s;
     animation: 2s textscroll 1;
   }
   h2 {
-    font-family: $Contrail;
-    font-size: 2.5em;
-    margin-bottom: .5em;
+    // font-family: $Contrail;
+    font-size: 3em;
+    margin-bottom: 50px;
   }
   span {
     font-family: $Josefin;
