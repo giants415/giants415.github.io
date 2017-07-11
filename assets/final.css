@@ -50,9 +50,7 @@ footer {
     position: relative;
     border-radius: 30px; }
   #aboutMe h1 {
-    font-family: "Karla", "Contrail One", sans-serif;
-    animation-delay: 1s;
-    animation: 2s textscroll 1; }
+    font-family: "Karla", "Contrail One", sans-serif; }
   #aboutMe h2 {
     font-size: 3em;
     margin-bottom: 50px; }
@@ -95,6 +93,11 @@ footer {
       margin-left: .5em;
       display: inline-block;
       float: right; }
+    #portfolio div a {
+      font-size: 1.5em;
+      text-decoration: none; }
+    #portfolio div a:hover {
+      animation: 0 ahover 1; }
 
 @keyframes zoomies {
   from {
@@ -124,5 +127,10 @@ footer {
   to {
     transform: translateY(0px);
     background-color: black; } }
+@keyframes ahover {
+  from {
+    outline: 0px; }
+  to {
+    outline: 2px solid red; } }
 
 /*# sourceMappingURL=final.css.map */
