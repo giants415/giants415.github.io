@@ -102,7 +102,6 @@ footer {
     left: 0;
     transform: scale(1); }
   to {
-    left: 15em;
     transform: scale(2); } }
 @keyframes imgfader {
   from {
