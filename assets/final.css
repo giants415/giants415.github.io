@@ -71,6 +71,9 @@ footer {
     font-size: 1.2em;
     text-align: center; }
 
+#port-title {
+  font-family: "Roboto Condensed", sans-serif; }
+
 #portfolio {
   font-family: "Roboto Condensed", sans-serif;
   padding: 1em 0;
