@@ -68,7 +68,8 @@ footer {
   justify-content: space-around;
   align-items: center; }
   #skills p {
-    font-size: 1.5em; }
+    font-size: 1.2em;
+    text-align: center; }
 
 #portfolio {
   font-family: "Roboto Condensed", sans-serif;
