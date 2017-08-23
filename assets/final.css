@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Contrail+One|Josefin+Sans:300i|Karla:700i|Roboto+Condensed");
 body {
-  background-image: url("pink-dust.png");
-  color: white;
   margin-top: 150px; }
 
 h1 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 4em; }
 
 a {
@@ -15,14 +13,11 @@ a:hover {
   cursor: pointer; }
 
 footer {
-  background-color: #4d6471;
   min-height: 5em;
-  padding: 2em 0 1.5em 0;
   text-align: center;
-  color: white;
   font-family: "Karla", "Contrail One", sans-serif; }
   footer a {
-    padding: 0 .5em; }
+    padding: 0 30px; }
 
 .zoom {
   position: relative;

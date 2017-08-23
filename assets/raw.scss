@@ -5,13 +5,13 @@ $Karla: 'Karla', $Contrail;
 $Roboto: 'Roboto Condensed', sans-serif;
 
 body {
-  background-image: url('pink-dust.png');
-  color: white;
+  // background-image: url('pink-dust.png');
+  // color: white;
   margin-top: 150px;
 }
 
 h1 {
-  font-family: $Josefin;
+  font-family: $Roboto;
   font-size: 4em;
 }
 
@@ -25,14 +25,15 @@ a:hover {
 }
 
 footer {
-  background-color: #4d6471;
+  // background-color: #4d6471;
   min-height: 5em;
-  padding: 2em 0 1.5em 0;
+  // max-width: 100%;
+  // padding: 2em 0 1.5em 0;
   text-align: center;
-  color: white;
+  // color: white;
   font-family: $Karla;
   a {
-    padding: 0 .5em;
+    padding: 0 30px;
   }
 }
 
