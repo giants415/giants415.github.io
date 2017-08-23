@@ -36,7 +36,8 @@ footer {
   align-items: center; }
   #menu a {
     font-size: 1.5em;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: bold; }
 
 #aboutMe {
   text-align: center; }
