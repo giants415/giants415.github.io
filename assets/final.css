@@ -50,17 +50,16 @@ footer {
   #aboutMe h2 {
     font-size: 3em;
     margin-bottom: 50px; }
-  #aboutMe span {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 1.6em; }
 
 #rotate-wrapper {
-  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
   padding: 40px 40px;
   position: relative;
-  width: 70%; }
-  #rotate-wrapper h3 {
-    text-align: left; }
+  font-family: "Roboto Condensed", sans-serif; }
+  #rotate-wrapper h2 {
+    text-align: left;
+    font-size: 30px; }
 
 #skills {
   margin-top: 100px;

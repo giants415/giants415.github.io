@@ -74,18 +74,20 @@ footer {
     margin-bottom: 50px;
   }
   span {
-    font-family: $Josefin;
-    font-size: 1.6em;
+    // font-family: $Josefin;
+    // font-size: 1.6em;
   }
 }
 
 #rotate-wrapper{
-  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
   padding: 40px 40px;
   position: relative;
-  width: 70%;
-  h3{
+  font-family: $Roboto;
+  h2{
     text-align: left;
+    font-size: 30px;
   }
 }
 
