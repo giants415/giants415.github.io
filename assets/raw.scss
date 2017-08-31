@@ -82,12 +82,18 @@ footer {
 #rotate-wrapper{
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   padding: 40px 40px;
   position: relative;
   font-family: $Roboto;
+  justify-content: center;
   h2{
-    text-align: left;
+    text-align: center;
     font-size: 30px;
+    margin-right: 450px;
+    // Hello person reading my code and wondering why I'm using a margin-right
+    // of 450px! The answer is because it gave me the design I wanted in 1 minute
+    // while I continue to figure out a better way
   }
 }
 

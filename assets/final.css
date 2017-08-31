@@ -54,12 +54,15 @@ footer {
 #rotate-wrapper {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   padding: 40px 40px;
   position: relative;
-  font-family: "Roboto Condensed", sans-serif; }
+  font-family: "Roboto Condensed", sans-serif;
+  justify-content: center; }
   #rotate-wrapper h2 {
-    text-align: left;
-    font-size: 30px; }
+    text-align: center;
+    font-size: 30px;
+    margin-right: 450px; }
 
 #skills {
   margin-top: 100px;
