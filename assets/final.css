@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Contrail+One|Josefin+Sans:300i|Karla:700i|Roboto+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Karla:700i|Roboto+Condensed");
 body {
   margin-top: 150px; }
 
@@ -14,8 +14,7 @@ a:hover {
 
 footer {
   min-height: 5em;
-  text-align: center;
-  font-family: "Karla", "Contrail One", sans-serif; }
+  text-align: center; }
   footer a {
     padding: 0 30px; }
 
@@ -69,7 +68,7 @@ footer {
     position: relative;
     border-radius: 30px; }
   #aboutMe h1 {
-    font-family: "Karla", "Contrail One", sans-serif; }
+    font-family: "Karla", "Roboto Condensed", sans-serif, sans-serif; }
   #aboutMe h2 {
     font-size: 3em;
     margin-bottom: 50px; }

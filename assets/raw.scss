@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Contrail+One|Karla:700i|Roboto+Condensed');
-$Contrail: 'Contrail One', sans-serif;
-$Karla: 'Karla', $Contrail;
-$Roboto: 'Roboto Condensed', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Karla:700i|Roboto+Condensed');
+$TITLE: 'Roboto Condensed', sans-serif;
+$TEXT: 'Karla', $TITLE, sans-serif;
 
 body {
   // background-image: url('pink-dust.png');
@@ -10,7 +9,7 @@ body {
 }
 
 h1 {
-  font-family: $Roboto;
+  font-family: $TITLE;
   font-size: 3.5em;
 }
 
@@ -29,7 +28,7 @@ footer {
   // padding: 2em 0 1.5em 0;
   text-align: center;
   // color: white;
-  // font-family: $Karla;
+  // font-family: $TEXT;
   a {
     padding: 0 30px;
   }
@@ -68,21 +67,6 @@ footer {
   }
 }
 
-.two{
-  font-family: $Contrail;
-  font-size: 2em;
-}
-
-.three{
-  font-family: $Karla;
-  font-size: 2em;
-}
-
-.four{
-  font-family: $Roboto;
-  font-size: 2em;
-}
-
 #menu{
   height: 75px;
   width: 100%;
@@ -109,7 +93,7 @@ footer {
     border-radius: 30px;
   }
   h1 {
-    font-family: $Karla;
+    font-family: $TEXT;
   }
   h2 {
     font-size: 3em;
@@ -126,7 +110,7 @@ footer {
   flex-wrap: nowrap;
   padding: 40px 40px;
   position: relative;
-  font-family: $Roboto;
+  font-family: $TITLE;
   justify-content: center;
   h2{
     text-align: center;
@@ -155,11 +139,11 @@ footer {
 }
 
 #port-title{
-  font-family: $Roboto;
+  font-family: $TITLE;
 }
 
 #portfolio{
-  font-family: $Roboto;
+  font-family: $TITLE;
   padding: 1em 0;
   display: flex;
   flex-wrap: wrap;
