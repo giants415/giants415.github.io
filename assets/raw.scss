@@ -38,8 +38,7 @@ footer {
 }
 
 .rotate {
-  display: inline;
-  text-indent: 8px;
+  display: inline-block;
   span {
     animation: topToBottom 12.5s linear infinite 0s;
   	-ms-animation: topToBottom 12.5s linear infinite 0s;
@@ -84,14 +83,14 @@ footer {
 }
 
 #aboutMe {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  // align-items: baseline;
+  // align-content: center;
+  // text-align: center;
   h1 {
     font-family: $TITLE;
-  }
-  h2 {
-    margin-top: 30px;
-    margin-bottom: 5px;
-    font-weight: bold;
   }
   span {
     font-family: $TEXT;
@@ -100,21 +99,10 @@ footer {
 }
 
 #rotate-wrapper{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  padding: 40px 40px;
-  position: relative;
+  // align-self: center;
+  padding-bottom: 40px;
+  font-size: 1.75em;
   font-family: $TITLE;
-  justify-content: center;
-  h2{
-    text-align: center;
-    font-size: 30px;
-    margin-right: 450px;
-    // Hello person reading my code and wondering why I'm using a margin-right
-    // of 450px! The answer is because it gave me the design I wanted in 1 minute
-    // while I continue to figure out a better way
-  }
 }
 
 #skills {
