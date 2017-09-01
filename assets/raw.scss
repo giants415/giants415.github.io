@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Contrail+One|Josefin+Sans:300i|Karla:700i|Roboto+Condensed');
-$Josefin: 'Josefin Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Contrail+One|Karla:700i|Roboto+Condensed');
 $Contrail: 'Contrail One', sans-serif;
 $Karla: 'Karla', $Contrail;
 $Roboto: 'Roboto Condensed', sans-serif;
@@ -30,7 +29,7 @@ footer {
   // padding: 2em 0 1.5em 0;
   text-align: center;
   // color: white;
-  font-family: $Karla;
+  // font-family: $Karla;
   a {
     padding: 0 30px;
   }
@@ -69,6 +68,21 @@ footer {
   }
 }
 
+.two{
+  font-family: $Contrail;
+  font-size: 2em;
+}
+
+.three{
+  font-family: $Karla;
+  font-size: 2em;
+}
+
+.four{
+  font-family: $Roboto;
+  font-size: 2em;
+}
+
 #menu{
   height: 75px;
   width: 100%;
@@ -102,7 +116,6 @@ footer {
     margin-bottom: 50px;
   }
   span {
-    // font-family: $Josefin;
     // font-size: 1.6em;
   }
 }
