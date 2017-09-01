@@ -3,7 +3,7 @@ body {
   margin-top: 150px; }
 
 h1 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 3.5em; }
 
 a {
@@ -63,15 +63,15 @@ footer {
 
 #aboutMe {
   text-align: center; }
-  #aboutMe img {
-    max-width: 40%;
-    position: relative;
-    border-radius: 30px; }
   #aboutMe h1 {
-    font-family: "Karla", "Roboto Condensed", sans-serif, sans-serif; }
+    font-family: "Karla", sans-serif; }
   #aboutMe h2 {
-    font-size: 3em;
-    margin-bottom: 50px; }
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: bold; }
+  #aboutMe span {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.5em; }
 
 #rotate-wrapper {
   display: flex;
@@ -79,7 +79,7 @@ footer {
   flex-wrap: nowrap;
   padding: 40px 40px;
   position: relative;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Karla", sans-serif;
   justify-content: center; }
   #rotate-wrapper h2 {
     text-align: center;
@@ -100,10 +100,10 @@ footer {
     font-size: 1.5em; }
 
 #port-title {
-  font-family: "Roboto Condensed", sans-serif; }
+  font-family: "Karla", sans-serif; }
 
 #portfolio {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Karla", sans-serif;
   padding: 1em 0;
   display: flex;
   flex-wrap: wrap;
