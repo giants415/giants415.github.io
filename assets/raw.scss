@@ -38,8 +38,8 @@ footer {
 }
 
 .rotate {
-  display: inline-block;
   span {
+    text-align: left;
     animation: topToBottom 12.5s linear infinite 0s;
   	-ms-animation: topToBottom 12.5s linear infinite 0s;
   	-webkit-animation: topToBottom 12.5s linear infinite 0s;
@@ -85,24 +85,23 @@ footer {
 #aboutMe {
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
-  // align-items: baseline;
-  // align-content: center;
-  // text-align: center;
+  justify-content: space-between;
+  align-items: center;
   h1 {
     font-family: $TITLE;
   }
   span {
     font-family: $TEXT;
     font-size: 1.5em;
+    width: 76%;
   }
 }
 
 #rotate-wrapper{
-  // align-self: center;
   padding-bottom: 40px;
   font-size: 1.75em;
   font-family: $TITLE;
+  margin-right: 300px;
 }
 
 #skills {

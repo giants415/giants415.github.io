@@ -22,27 +22,26 @@ footer {
   position: relative;
   animation: 1s zoomies forwards; }
 
-.rotate {
-  display: inline-block; }
-  .rotate span {
-    animation: topToBottom 12.5s linear infinite 0s;
-    -ms-animation: topToBottom 12.5s linear infinite 0s;
-    -webkit-animation: topToBottom 12.5s linear infinite 0s;
-    opacity: 0;
-    overflow: hidden;
-    position: absolute; }
-  .rotate span:nth-child(2) {
-    animation-delay: 2.5s;
-    -ms-animation-delay: 2.5s;
-    -webkit-animation-delay: 2.5s; }
-  .rotate span:nth-child(3) {
-    animation-delay: 5s;
-    -ms-animation-delay: 5s;
-    -webkit-animation-delay: 5s; }
-  .rotate span:nth-child(4) {
-    animation-delay: 7.5s;
-    -ms-animation-delay: 7.5s;
-    -webkit-animation-delay: 7.5s; }
+.rotate span {
+  text-align: left;
+  animation: topToBottom 12.5s linear infinite 0s;
+  -ms-animation: topToBottom 12.5s linear infinite 0s;
+  -webkit-animation: topToBottom 12.5s linear infinite 0s;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute; }
+.rotate span:nth-child(2) {
+  animation-delay: 2.5s;
+  -ms-animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s; }
+.rotate span:nth-child(3) {
+  animation-delay: 5s;
+  -ms-animation-delay: 5s;
+  -webkit-animation-delay: 5s; }
+.rotate span:nth-child(4) {
+  animation-delay: 7.5s;
+  -ms-animation-delay: 7.5s;
+  -webkit-animation-delay: 7.5s; }
 
 #menu {
   height: 75px;
@@ -62,17 +61,21 @@ footer {
 
 #aboutMe {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
   #aboutMe h1 {
     font-family: "Karla", sans-serif; }
   #aboutMe span {
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    width: 76%; }
 
 #rotate-wrapper {
   padding-bottom: 40px;
   font-size: 1.75em;
-  font-family: "Karla", sans-serif; }
+  font-family: "Karla", sans-serif;
+  margin-right: 300px; }
 
 #skills {
   margin-top: 100px;
