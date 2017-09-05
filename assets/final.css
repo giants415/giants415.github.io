@@ -83,25 +83,22 @@ footer {
 
 #portfolio {
   font-family: "Roboto Condensed", sans-serif;
-  padding: 1em 0;
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  flex-direction: column; }
   #portfolio div {
-    border: 10px solid #A2DFDF;
-    margin: 30px 0;
-    padding: 20px;
+    border: 7px solid #A2DFDF;
     width: 50%;
     height: 500px;
     border-radius: 10px; }
     #portfolio div img {
-      width: 40%;
-      margin-left: .5em;
-      display: inline-block;
-      float: right; }
+      width: 40%; }
     #portfolio div a {
       font-size: 1.5em;
       text-decoration: none; }
+  #portfolio div:nth-child(odd) {
+    align-self: flex-start; }
+  #portfolio div:nth-child(even) {
+    align-self: flex-end; }
 
 @keyframes zoomies {
   from {

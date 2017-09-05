@@ -105,27 +105,26 @@ footer {
 
 #portfolio{
   font-family: $TEXT;
-  padding: 1em 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   div {
-    border: 10px solid #A2DFDF;
-    margin: 30px 0;
-    padding: 20px;
+    border: 7px solid #A2DFDF;
     width: 50%;
     height: 500px;
     border-radius: 10px;
     img {
       width: 40%;
-      margin-left: .5em;
-      display: inline-block;
-      float: right;
     }
     a {
       font-size: 1.5em;
       text-decoration: none;
     }
+  }
+  div:nth-child(odd){
+    align-self: flex-start;
+  }
+  div:nth-child(even){
+    align-self: flex-end;
   }
 }
 
