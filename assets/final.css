@@ -70,7 +70,7 @@ footer {
     font-size: 1.5em;
     width: 55%;
     text-align: center;
-    margin-top: 60px; }
+    margin: 75px 0; }
 
 #rotate-wrapper {
   padding-bottom: 40px;
@@ -81,19 +81,6 @@ footer {
   #rotate-wrapper span {
     width: 550px;
     text-align: center; }
-
-#skills {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; }
-  #skills p {
-    font-size: 1.2em;
-    text-align: center; }
-  #skills .offset-lg-4 > p {
-    font-size: 1.5em; }
 
 #port-title {
   font-family: "Karla", sans-serif; }
