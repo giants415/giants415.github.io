@@ -39,7 +39,6 @@ footer {
 
 .rotate {
   span {
-    text-align: left;
     animation: topToBottom 12.5s linear infinite 0s;
   	-ms-animation: topToBottom 12.5s linear infinite 0s;
   	-webkit-animation: topToBottom 12.5s linear infinite 0s;
@@ -90,18 +89,25 @@ footer {
   h1 {
     font-family: $TITLE;
   }
-  span {
+  div:nth-child(3) {
     font-family: $TEXT;
     font-size: 1.5em;
-    width: 76%;
+    width: 55%;
+    text-align: center;
+    margin-top: 60px;
   }
 }
 
 #rotate-wrapper{
   padding-bottom: 40px;
-  font-size: 1.75em;
-  font-family: $TITLE;
-  margin-right: 300px;
+  font-size: 2.25em;
+  font-family: $TEXT;
+  margin-right: 535px;
+  margin-top: 0;
+  span{
+    width: 550px;
+    text-align: center;
+  }
 }
 
 #skills {
