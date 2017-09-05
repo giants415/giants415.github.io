@@ -91,7 +91,6 @@ footer {
   flex-direction: column;
   align-items: center; }
   #portfolio div {
-    color: black;
     border: 10px solid #A2DFDF;
     margin: 30px 0;
     padding: 20px;
