@@ -86,7 +86,6 @@ footer {
   display: flex;
   flex-direction: column; }
   #portfolio div {
-    border: 6px black solid;
     width: 50%;
     height: 500px; }
     #portfolio div img {
@@ -96,19 +95,10 @@ footer {
       text-decoration: none; }
   #portfolio div:nth-child(odd) {
     align-self: flex-start;
-    margin-left: 3px;
-    border-right: none;
-    position: relative; }
+    margin-left: 3px; }
   #portfolio div:nth-child(even) {
     align-self: flex-end;
-    margin-right: 3px;
-    border-left: none;
-    position: relative;
-    bottom: 6px; }
-  #portfolio div:first-child {
-    position: relative;
-    top: 0;
-    bottom: 0; }
+    margin-right: 3px; }
 
 @keyframes imgfader {
   from {

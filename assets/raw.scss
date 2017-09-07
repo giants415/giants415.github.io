@@ -109,7 +109,7 @@ footer {
   flex-direction: column;
   div {
     // border: 7px solid #A2DFDF;
-    border: 6px black solid;
+    // border: 6px black solid;
     width: 50%;
     height: 500px;
     // border-radius: 10px;
@@ -124,21 +124,22 @@ footer {
   div:nth-child(odd){
     align-self: flex-start;
     margin-left: 3px;
-    border-right: none;
-    position: relative;
+    // border-right: none;
+    // position: relative;
     // bottom: 12px;
   }
   div:nth-child(even){
     align-self: flex-end;
     margin-right: 3px;
-    border-left: none;
-    position: relative;
-    bottom: 6px;
+    // border-left: none;
+    // position: relative;
+    // bottom: 6px;
   }
   div:first-child{
-    position: relative;
-    top:0;
-    bottom:0;
+    // position: relative;
+    // top:0;
+    // bottom:0;
+    // border-top: none;
     // background-color: red;
   }
 }
