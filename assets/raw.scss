@@ -107,41 +107,44 @@ footer {
   font-family: $TEXT;
   display: flex;
   flex-direction: column;
+  align-items: center;
   div {
-    // border: 7px solid #A2DFDF;
-    // border: 6px black solid;
-    width: 50%;
-    height: 500px;
-    // border-radius: 10px;
+    width: 80%;
+    height: 400px;
+    border: black solid 1px;
+    margin-top: 10px;
+    padding: 10px;
     img {
       width: 40%;
+      float: right;
     }
     a {
       font-size: 1.5em;
       text-decoration: none;
+      float: right;
     }
   }
-  div:nth-child(odd){
-    align-self: flex-start;
-    margin-left: 3px;
-    // border-right: none;
-    // position: relative;
-    // bottom: 12px;
-  }
-  div:nth-child(even){
-    align-self: flex-end;
-    margin-right: 3px;
-    // border-left: none;
-    // position: relative;
-    // bottom: 6px;
-  }
-  div:first-child{
-    // position: relative;
-    // top:0;
-    // bottom:0;
-    // border-top: none;
-    // background-color: red;
-  }
+  // div:nth-child(odd){
+  //   align-self: flex-start;
+  //   margin-left: 3px;
+  //   // border-right: none;
+  //   // position: relative;
+  //   // bottom: 12px;
+  // }
+  // div:nth-child(even){
+  //   align-self: flex-end;
+  //   margin-right: 3px;
+  //   // border-left: none;
+  //   // position: relative;
+  //   // bottom: 6px;
+  // }
+  // div:first-child{
+  //   // position: relative;
+  //   // top:0;
+  //   // bottom:0;
+  //   // border-top: none;
+  //   // background-color: red;
+  // }
 }
 
 // @keyframes zoomies {
