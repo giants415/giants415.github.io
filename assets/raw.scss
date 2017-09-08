@@ -8,8 +8,9 @@ body {
 
 h1 {
   font-family: $TITLE;
-  font-size: 3.5em;
+  font-size: 4em;
   text-align: center;
+  padding-bottom: 5px;
 }
 
 a {
@@ -111,8 +112,8 @@ footer {
   div {
     width: 80%;
     height: 400px;
-    border: black solid 1px;
-    margin-top: 10px;
+    border: #1fdfdf dotted 6px;
+    margin-top: 3px;
     padding: 10px;
     img {
       width: 40%;
@@ -121,23 +122,25 @@ footer {
     a {
       font-size: 1.5em;
       text-decoration: none;
-      float: right;
     }
   }
-  // div:nth-child(odd){
-  //   align-self: flex-start;
-  //   margin-left: 3px;
-  //   // border-right: none;
-  //   // position: relative;
-  //   // bottom: 12px;
-  // }
-  // div:nth-child(even){
-  //   align-self: flex-end;
-  //   margin-right: 3px;
-  //   // border-left: none;
-  //   // position: relative;
-  //   // bottom: 6px;
-  // }
+  div:nth-child(odd){
+    // align-self: flex-start;
+    // margin-left: 3px;
+    // border-right: none;
+    // position: relative;
+    // bottom: 12px;
+    border-top: none;
+    border-right: none;
+  }
+  div:nth-child(even){
+    // align-self: flex-end;
+    margin-right: 2px;
+    border-left: none;
+    border-top: none;
+    // position: relative;
+    // bottom: 6px;
+  }
   // div:first-child{
   //   // position: relative;
   //   // top:0;

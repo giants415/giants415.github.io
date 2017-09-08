@@ -4,8 +4,9 @@ body {
 
 h1 {
   font-family: "Karla", sans-serif;
-  font-size: 3.5em;
-  text-align: center; }
+  font-size: 4em;
+  text-align: center;
+  padding-bottom: 5px; }
 
 a {
   color: inherit; }
@@ -89,16 +90,22 @@ footer {
   #portfolio div {
     width: 80%;
     height: 400px;
-    border: black solid 1px;
-    margin-top: 10px;
+    border: #1fdfdf dotted 6px;
+    margin-top: 3px;
     padding: 10px; }
     #portfolio div img {
       width: 40%;
       float: right; }
     #portfolio div a {
       font-size: 1.5em;
-      text-decoration: none;
-      float: right; }
+      text-decoration: none; }
+  #portfolio div:nth-child(odd) {
+    border-top: none;
+    border-right: none; }
+  #portfolio div:nth-child(even) {
+    margin-right: 2px;
+    border-left: none;
+    border-top: none; }
 
 @keyframes imgfader {
   from {
