@@ -15,6 +15,7 @@ a:hover {
   cursor: pointer; }
 
 footer {
+  margin-top: 5px;
   min-height: 5em;
   text-align: center; }
   footer a {
