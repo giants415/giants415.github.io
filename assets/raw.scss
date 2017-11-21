@@ -111,7 +111,6 @@ footer {
   flex-direction: column;
   align-items: center;
   div {
-    width: 80%;
     height: 400px;
     border: #1fdfdf dotted 6px;
     margin-top: 3px;
@@ -125,7 +124,7 @@ footer {
       text-decoration: none;
     }
   }
-  div:nth-child(odd){
+  div:nth-child(even){
     // align-self: flex-start;
     // margin-left: 3px;
     // border-right: none;
@@ -134,7 +133,7 @@ footer {
     border-top: none;
     border-right: none;
   }
-  div:nth-child(even){
+  div:nth-child(odd){
     // align-self: flex-end;
     margin-right: 2px;
     border-left: none;
