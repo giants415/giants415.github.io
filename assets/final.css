@@ -90,9 +90,8 @@ footer {
   align-items: center; }
   #portfolio div {
     height: 400px;
-    border: #1fdfdf dotted 6px;
-    margin-top: 3px;
-    padding: 10px; }
+    padding: 10px;
+    margin: -15px; }
     #portfolio div img {
       width: 40%;
       float: right; }
@@ -100,12 +99,14 @@ footer {
       font-size: 1.5em;
       text-decoration: none; }
   #portfolio div:nth-child(even) {
+    color: #ae95d8;
     border-top: none;
-    border-right: none; }
+    border-right: none;
+    background-color: #2d2727; }
   #portfolio div:nth-child(odd) {
-    margin-right: 2px;
     border-left: none;
-    border-top: none; }
+    border-top: none;
+    background-color: white; }
 
 @keyframes imgfader {
   from {
