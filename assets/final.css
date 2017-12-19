@@ -91,7 +91,7 @@ footer {
   #portfolio div {
     height: 400px;
     padding: 10px;
-    margin: -15px; }
+    margin: 0 -15px; }
     #portfolio div img {
       width: 40%;
       float: right; }
