@@ -106,7 +106,8 @@ footer {
   #portfolio div:nth-child(odd) {
     border-left: none;
     border-top: none;
-    background-color: white; }
+    background-color: white;
+    box-shadow: inset 6px 6px 6px 6px black; }
 
 @keyframes imgfader {
   from {
