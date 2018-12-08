@@ -1,9 +1,14 @@
-header {
-  padding-top: 40vh;
-  background-color: red;
-  margin-bottom: 20vh;
+nav {
+  background: linear-gradient(#70C6FA, #FFFFFF);
+  position: sticky;
+  padding-top: 30vh;
+  width: 100vw;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-nav {
-  
+.container {
+  margin-top: 20vh;
 }
