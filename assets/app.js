@@ -13,6 +13,8 @@ function getScrollHeight() {
   }
 };
 
+// working to get nav bar to stay a fixed height after scroll height reaches a boundry
+
 $(document).ready(function(){
   $(document).scroll(getScrollHeight);
 });
