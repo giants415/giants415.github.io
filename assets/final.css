@@ -1,14 +1,16 @@
+html {
+  scroll-behavior: smooth; }
+
 nav {
   background: linear-gradient(#70C6FA, #FFFFFF);
-  position: sticky;
   padding-top: 30vh;
   width: 100vw;
-  min-height: 10vh;
+  height: 30vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly; }
 
 .container {
-  margin-top: 20vh; }
+  padding-top: 40vh; }
 
 /*# sourceMappingURL=final.css.map */
