@@ -4,14 +4,18 @@ html {
 
 nav {
   background: linear-gradient(#70C6FA, #FFFFFF);
-  // position: fixed;
-  // top: 0;
-  padding-top: 30vh;
+  position: fixed;
+  top: 0;
   width: 100vw;
-  height: 30vh;
+  min-height: 8vh;
+  z-index: 5;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  a {
+    padding-top: 1vh;
+    font-weight: bold;
+  }
 }
 
 .container {
