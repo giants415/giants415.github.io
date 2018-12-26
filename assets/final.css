@@ -18,17 +18,17 @@ nav {
 .container {
   padding-top: 20vh; }
 
-.about {
+.about .col-12 {
   justify-content: center; }
-  .about img {
-    width: 120px;
-    height: 120px;
-    border-radius: 10px; }
-  .about .socials {
-    width: 120px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center; }
+.about img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px; }
+.about .socials {
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center; }
 
 /*# sourceMappingURL=final.css.map */
