@@ -31,5 +31,7 @@ nav {
 
 .organizer {
   text-align: center; }
+  .organizer .col-lg-4 {
+    margin-bottom: 3vh; }
 
 /*# sourceMappingURL=final.css.map */
