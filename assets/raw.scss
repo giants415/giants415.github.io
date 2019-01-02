@@ -20,6 +20,9 @@ nav {
 
 .container {
   padding-top: 20vh;
+  .row:nth-child(2) {
+    margin: 8vh 0;
+  }
 }
 
 .about {
