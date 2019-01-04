@@ -18,7 +18,8 @@ nav {
 .container {
   padding-top: 20vh; }
   .container > .row:nth-child(2) {
-    margin: 8vh 0; }
+    margin: 8vh 0;
+    background-color: #f4f4f4; }
 
 .about img {
   width: 150px;
