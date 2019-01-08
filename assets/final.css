@@ -32,8 +32,10 @@ p {
     margin-top: 5vh; }
   .container-fluid > .row:nth-child(2) {
     margin: 8vh 0;
-    padding: 1vh 0;
+    padding: 7vh 0 10vh 0;
     background-color: #f4f4f4; }
+    .container-fluid > .row:nth-child(2) h2 {
+      padding-bottom: 3vh; }
 
 .about img {
   width: 150px;
