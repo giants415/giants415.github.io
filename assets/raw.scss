@@ -34,6 +34,11 @@ p {
   padding-top: 20vh;
   padding-left: 0px;
   padding-right: 0px;
+  > .row:nth-child(1) {
+    > .col-lg-6:nth-child(2) {
+      margin-top: 5vh;
+    }
+  }
   > .row:nth-child(2) {
     margin: 8vh 0;
     padding: 1vh 0;
