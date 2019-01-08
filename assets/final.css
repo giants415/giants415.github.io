@@ -4,8 +4,7 @@ html {
 
 nav {
   background-color: white;
-  border-bottom: 1px solid black;
-  border-radius: 50px;
+  border-bottom: .5px solid #f4f4f4;
   position: fixed;
   top: 0;
   width: 100vw;
