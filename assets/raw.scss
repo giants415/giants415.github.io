@@ -5,7 +5,9 @@ html {
 }
 
 nav {
-  background: linear-gradient(#70C6FA, #FFFFFF);
+  background-color: white;
+  border-bottom: 1px solid black;
+  border-radius: 50px;
   position: fixed;
   top: 0;
   width: 100vw;
