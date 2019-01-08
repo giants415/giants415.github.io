@@ -18,10 +18,13 @@ nav {
   }
 }
 
-.container {
+.container-fluid {
   padding-top: 20vh;
+  padding-left: 0px;
+  padding-right: 0px;
   > .row:nth-child(2) {
     margin: 8vh 0;
+    padding: 1vh 0;
     background-color: #f4f4f4;
   }
 
