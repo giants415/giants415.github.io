@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,6 +18,10 @@ nav {
     padding-top: 1vh;
     font-weight: bold;
   }
+}
+
+h2 {
+  font-family: 'Thasadith', sans-serif;
 }
 
 .container-fluid {
