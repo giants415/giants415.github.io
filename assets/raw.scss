@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Thasadith');
+@import url('https://fonts.googleapis.com/css?family=Thasadith:400,700|Work+Sans');
 
 html {
   scroll-behavior: smooth;
@@ -22,6 +22,11 @@ nav {
 
 h2 {
   font-family: 'Thasadith', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
 }
 
 .container-fluid {
